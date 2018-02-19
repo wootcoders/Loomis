@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ESBBinding xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>e98d7cca-01aa-4148-8bbf-0379f3148907</Id>
+  <Version>4a793f26-8f05-4490-aba0-54b73e8ff5e9</Version>
+  <Name>wsHttpWithMessageSecurity</Name>
+  <Description />
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <Zone>Enterprise</Zone>
+  <BindingXml>&lt;wsHttpBinding&gt;
+&lt;binding name="wsHttpToESB" receiveTimeout="00:05:00"&gt;
+    &lt;security mode="Message"&gt;
+    &lt;message clientCredentialType="Windows" negotiateServiceCredential="true" establishSecurityContext="true"/&gt;
+  &lt;/security&gt;
+&lt;/binding&gt;
+&lt;/wsHttpBinding&gt;</BindingXml>
+  <Properties />
+</ESBBinding>

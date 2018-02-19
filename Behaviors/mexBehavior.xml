@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ESBBehavior xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>fa0d9ef7-3879-4612-b515-ec186f2b59a7</Id>
+  <Version>14cbd7b3-ff61-4077-a7ea-2f79bbeb04c8</Version>
+  <Name>mexBehavior</Name>
+  <Description>custom behavior for metadata exchange - wcf model</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <BindingXml>&lt;behaviors&gt;
+&lt;serviceBehaviors&gt;
+	&lt;behavior name="DefaultBehavior"&gt;
+		&lt;serviceDebug includeExceptionDetailInFaults="true"/&gt;
+		&lt;serviceMetadata httpGetEnabled="true"/&gt;
+	&lt;/behavior&gt;
+&lt;/serviceBehaviors&gt;
+&lt;/behaviors&gt;</BindingXml>
+  <Properties />
+  <Zone>Enterprise</Zone>
+</ESBBehavior>

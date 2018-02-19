@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ESBBusinessFlow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>04e4eb6f-82e2-4917-8d88-4c96f1bd158b</Id>
+  <Version>d155b3d2-82cb-4f84-b32e-6a92a9f88efb</Version>
+  <BusinessFlows />
+  <Description />
+  <Name>BusinessFlow2</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <Applications>
+    <string>NewApplication2</string>
+  </Applications>
+  <IsEnabled>true</IsEnabled>
+</ESBBusinessFlow>

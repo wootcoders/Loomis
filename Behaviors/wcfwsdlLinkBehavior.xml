@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ESBBehavior xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>e530010f-1e9a-4318-99fc-c037dbbb05d5</Id>
+  <Version>67fa8d15-7756-46ae-b8b0-51ceebe80ec0</Version>
+  <Name>wcfwsdlLinkBehavior</Name>
+  <Description>Ensure that the metadata link on wsdl page points to correct resource and not inaccessible resources</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <BindingXml>&lt;serviceBehaviors&gt;
+   &lt;behavior name="wcfwsdlLinkBehavior"&gt;
+     &lt;!-- Other options would go here --&gt;
+     &lt;useRequestHeadersForMetadataAddress&gt;
+       &lt;defaultPorts&gt; &lt;!-- Use your own port numbers --&gt;
+          &lt;!--&lt;add scheme="http" port="81" /&gt;--&gt;
+          &lt;!--&lt;add scheme="https" port="444" /&gt;--&gt;
+        &lt;/defaultPorts&gt;
+      &lt;/useRequestHeadersForMetadataAddress&gt;
+   &lt;/behavior&gt;
+&lt;/serviceBehaviors&gt;</BindingXml>
+  <Properties />
+  <Zone>Enterprise</Zone>
+</ESBBehavior>

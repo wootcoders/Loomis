@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBApplication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>aa67a128-630b-4dc6-9164-2afd726f424f</Id>
+  <Version>39b47a86-365a-49eb-b72c-37a2fd54a682</Version>
+  <BusinessFlows>
+    <string>BusinessFlow3</string>
+  </BusinessFlows>
+  <Description />
+  <Name>NewApplication3</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <IsEnabled>true</IsEnabled>
+  <IsShared>false</IsShared>
+  <Users />
+</ESBApplication>
